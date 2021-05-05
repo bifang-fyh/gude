@@ -1,0 +1,7 @@
+{
+    "workers" :
+    {
+        "accept" : 2,
+        "process" : 8
+    }
+}
