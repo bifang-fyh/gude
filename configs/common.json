@@ -1,7 +1,7 @@
 {
     "system" :
     {
-        "pid_file" : "dht_search.pid",
-        "fiber_stack_size" : 200000
-    }
+        "pid_file" : "gude.pid",
+        "fiber_stack_size" : 200000,
+    },
 }

@@ -9,7 +9,7 @@
                 {
                     "type" : "file",
                     "file" : "logs/root.log",
-                    "rolling_time": 7200,
+                    "rolling_time": 1800,
                     "rolling_dir": "logs/root/",
                     "level" : "info",
                     "formatter" : "%d{%Y-%m-%d %H:%M:%S}%T%r%T%t%T%N%T%F%T[%p]%T[%c]%T%f:%l%T%m%n"
@@ -25,7 +25,7 @@
                 {
                     "type" : "file",
                     "file" : "logs/system.log",
-                    "rolling_time": 7200,
+                    "rolling_time": 1800,
                     "rolling_dir": "logs/system/",
                     "level" : "info",
                     "formatter" : "%d{%Y-%m-%d %H:%M:%S}%T%r%T%t%T%N%T%F%T[%p]%T[%c]%T%f:%l%T%m%n"

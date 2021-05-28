@@ -3,11 +3,11 @@
 
 ### 编译使用
 
-1.系统的依赖有zlib, openssl, boost等, g++必须支持c++11, 可直接编译一下然后查看报错信息逐个安装依赖
+1. 系统的依赖于bifang这个框架，需要先编译bifang框架，bifang框架github地址：https://github.com/bifang-fyh/bifang 
 
-2.进入源代码根目录, 执行make命令编译源代码
+2. 将gude与bifang放在同一级目录下，编译bifang之后，会生成libbifang.so动态库，然后进入gude目录，执行make进行编译
 
-3.输入 ./gude -d 执行程序（爬取的种子文件默认放在torrent目录下）
+3. 编译gude完成后，输入 ./gude -d 执行程序（爬取的种子文件默认放在源代码torrent目录下）
 
 
 
